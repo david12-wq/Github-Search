@@ -8,13 +8,15 @@ import { ProfileComponent } from './profile/profile.component';
 import { DateCountPipe } from './date-count.pipe';
 import { HighlightDirective } from './highlight.directive';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     ProfileComponent,
     DateCountPipe,
-    HighlightDirective
+    HighlightDirective,
+    
   ],
   imports: [
     BrowserModule,
